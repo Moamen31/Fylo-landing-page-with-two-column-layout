@@ -299,6 +299,11 @@ section .access .text p{
     line-height: var(--line-height);
     padding-right: 95px;
 }
+@media (max-width:767px){
+    section .access .text p{
+       text-align: center;
+   }
+}
 section .access .input{
     flex-basis: 40%;
     display: flex;
